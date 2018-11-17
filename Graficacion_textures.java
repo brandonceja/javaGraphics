@@ -126,9 +126,9 @@ public class Graficacion_textures extends Applet implements Runnable{
         orbit.setSchedulingBounds(new BoundingSphere());
         universo.getViewingPlatform().setViewPlatformBehavior(orbit);
         
-        //Se le asigna la vista al SimpleUniverse
+        //Adds view to SimpleUniverse
         universo.getViewingPlatform().setNominalViewingTransform();
-        //Se agrega el BranchGroup al SimpleUniverse
+        //Adds BranchGroup to SimpleUniverse
         universo.addBranchGraph(scene);
     }
     
