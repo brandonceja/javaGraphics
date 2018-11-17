@@ -82,9 +82,9 @@ public class Graficacion_lights extends Applet implements KeyListener{
         orbit.setSchedulingBounds(new BoundingSphere());
         universo.getViewingPlatform().setViewPlatformBehavior(orbit);
         
-        //Se le asigna la vista al SimpleUniverse
+        //Adds view to SimpleUniverse
         universo.getViewingPlatform().setNominalViewingTransform();
-        //Se agrega el BranchGroup al SimpleUniverse
+        //Adds BranchGroup to SimpleUniverse
         universo.addBranchGraph(scene);
     }
     
